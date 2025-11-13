@@ -11,8 +11,7 @@ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
                  endDelimiter="/"
                  relativeToChangelogFile="true"
                  splitStatements="true"
-                 stripComments="true"
-        />
+                 stripComments="true"/>
         <comment>Создание первой таблицы</comment>
     </changeSet>
 </databaseChangeLog>
