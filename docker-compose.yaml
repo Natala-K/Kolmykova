@@ -6,4 +6,5 @@ services:
     environment:
       POSTGRES_PASSWORD: postgres
     ports:
-    - 5432:5432
+    - 5440:5440
+    command: [ "postgres", "-c", "port=5440" ]
